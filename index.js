@@ -33,7 +33,7 @@
 */
 
 // CODE HERE
-
+let speed= 25
 
 
 
@@ -56,7 +56,7 @@
 
 // CODE HERE
 
-
+speed = 500
 
 
 
@@ -76,7 +76,7 @@
 */
 
 // CODE HERE
-
+let faceSnack = 'Chips'
 
 
 
@@ -95,7 +95,7 @@
 */
 
 // CODE HERE
-
+let faveDrink= 'Red Bull'
 
 
 
@@ -116,7 +116,7 @@
 
 // CODE HERE
 
-
+const private = true
 
 
 
@@ -148,6 +148,11 @@
 
 // CODE HERE
 
+let netflix = 15
+let hulu = 7
+let disneyPlus = 5
+let youtubePremuim = 10
+let peakock = 10
 
 
 
@@ -165,7 +170,8 @@
 */
 
 // CODE HERE
-
+let total = netflix+hulu+disneyPlus+youtubePremuim+peakock;
+console.log(total);
 
 
 
@@ -189,8 +195,12 @@
 */
 
 // CODE HERE
-
-
+// hulu = 0 
+// peakock = 5
+// netflix = 8
+hulu -= 7
+peakock -= 5
+netflix -= 7
 
 
 
@@ -208,6 +218,7 @@
 
 // CODE HERE
 
+let newTotal = netflix+hulu+disneyPlus+youtubePremuim+peakock;
 
 
 
@@ -222,8 +233,8 @@
     and compare the numbers.
 */
 
-// console.log('Total: ', total)
-// console.log('New Total: ', newTotal)
+console.log('Total: ', total)
+console.log('New Total: ', newTotal)
 
 /*
     What is happening here? When we run a file 
@@ -263,9 +274,6 @@
 */
 
 // CODE HERE
-
-
-
-
-
+savings = ((total-newTotal) / total) *100
+console.log(savings);
 
